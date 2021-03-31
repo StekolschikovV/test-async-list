@@ -1,7 +1,7 @@
 export interface ListI {
   title: string;
   link: string;
-  hash: string | null;
+  hash: string | null | number;
 }
 
 export interface IGithubResponse {
